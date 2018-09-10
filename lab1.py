@@ -2,5 +2,5 @@
 
 import sys
 
-print("Hellow " + sys.argv[1])
+print("Hello, Олексій")
 
