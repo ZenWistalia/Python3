@@ -14,7 +14,7 @@ if a == 0:
     else:
         x1 = x2 = -c / b
 else:
-    D = b**2 - a*a*c
+    D = b**2 - 4*a*c
     if D < 0:
         x1 = (- b + 0j * cmath.sqrt(D)) / (2 * a)
         x2 = (- b - 0j * cmath.sqrt(D)) / (2 * a)
