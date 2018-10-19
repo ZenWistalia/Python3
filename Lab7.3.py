@@ -16,26 +16,6 @@ def isClosure(c):
     else:
         return False
 
-def isOpenClosure(c):
-    if c=='(':
-        return True
-    elif c=='{':
-        return True
-    elif c=='[':
-        return True
-    else:
-        return False
-
-def isCloseClosure(c):
-    if c==')':
-        return True
-    elif c=='}':
-        return True
-    elif c==']':
-        return True
-    else:
-        return False
-
 Closures ={
     '(':')',
     '[':']',
