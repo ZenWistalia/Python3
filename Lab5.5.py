@@ -9,6 +9,5 @@ else:
         if n % x == 0:
             print("Число не просте\n")
             break
-        else:
-            print("Число просте\n")
-            break
+    else:
+        print("Число просте\n")
